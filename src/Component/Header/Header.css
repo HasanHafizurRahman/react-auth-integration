@@ -1,0 +1,20 @@
+nav{
+    margin-top: 20px;
+}
+nav a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    background: #000;
+    font-weight: bolder;
+    font-family: 'Lucida Grande', Geneva, Verdana, sans-serif;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 10px;
+    font-size: small;
+    padding: 5px;
+}
+nav a:hover{
+    color: rgb(62, 238, 9);
+    background: rgb(18, 3, 83);
+    /* font-size: medium; */
+}
