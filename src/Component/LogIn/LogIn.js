@@ -1,11 +1,14 @@
 import React from 'react';
+import useFirebase from '../../hooks/useFirebase';
 import './LogIn.css'
 const LogIn = () => {
+const {signUpWithGoogle} = useFirebase();
+
     return (
         <div>
             <h3>Please LogIn</h3>
             <div>
-                <button>Sign With Google</button>
+                <button onClick={signUpWithGoogle}>Sign With Google</button>
             </div>
             <br />
             <form>

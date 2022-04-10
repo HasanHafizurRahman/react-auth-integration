@@ -14,7 +14,8 @@ nav a{
     padding: 5px;
 }
 nav a:hover{
-    color: rgb(62, 238, 9);
-    background: rgb(18, 3, 83);
+    color: rgb(27, 247, 7);
+    background: purple;
+    /* background: rgb(18, 3, 83); */
     /* font-size: medium; */
 }
